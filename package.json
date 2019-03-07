@@ -41,14 +41,14 @@
         "threshold": "1 Kb"
     }],
     "peerDependencies": {
-        "apollo-link": "^1.0.0"
+        "apollo-link": "^1.2.3"
     },
     "devDependencies": {
         "@types/graphql": "0.12.7",
         "@types/jest": "22.1.x",
         "apollo-cache-inmemory": "^1.1.5",
         "apollo-client": "^2.2.0",
-        "apollo-link": "^1.0.0",
+        "apollo-link": "1.2.3",
         "browserify": "14.5.0",
         "bundlesize": "0.15.3",
         "codecov": "3.0.0",
@@ -65,7 +65,7 @@
         "rollup-plugin-sourcemaps": "0.4.x",
         "ts-jest": "21.1.4",
         "tslint": "5.8.0",
-        "typescript": "2.5.1",
+        "typescript": "3.3.3333",
         "uglify-js": "3.1.5"
     },
     "jest": {
@@ -82,7 +82,7 @@
         ]
     },
     "dependencies": {
-        "apollo-utilities": "^1.0.8",
+        "apollo-utilities": "1.0.24",
         "graphql-anywhere": "^4.1.0-alpha.0"
     },
     "lint-staged": {
