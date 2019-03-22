@@ -109,7 +109,11 @@ export const withClientState = (
       };
 
       if (server) operation.query = server;
-      const obs =
+      const obs: {
+        subscribe: (
+          { next, error, complete }: { next: any; error: any; complete: any },
+        ) => {};
+      } =
         server && forward
           ? forward(operation)
           : Observable.of({
